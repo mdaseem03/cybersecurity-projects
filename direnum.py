@@ -18,7 +18,7 @@ def check_directory(directory):
     full_url = url + "/" + directory
     response = requests.get(full_url)
     status_code = response.status_code
-        if status_code != 404:
+    if status_code != 404:
             if 300 <= status_code < 400:
                 print(colored("{} : Status Code [{}]".format(full_url,status_code), 'orange'))
             elif status_code == 200:

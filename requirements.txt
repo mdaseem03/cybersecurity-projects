@@ -14,3 +14,8 @@ PySocks
 dnspython
 
 python-nmap
+
+whois
+
+termcolor
+
